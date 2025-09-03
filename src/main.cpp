@@ -1,8 +1,5 @@
-#ifdef UNIT_TEST
-#include "mock_wifi.h"
-#else
 #include "WiFi.h"
-#endif
+
 void setup() {
   Serial.begin(115200);
   Serial.println("Initializing WiFi...");
